@@ -19,7 +19,7 @@ public class TodoController {
 
     }
 
-    @GetMapping("todos")
+    @GetMapping("todo")
     public List<Todo> getAllTodos()
     {
         return todoService.getAllTodos();
